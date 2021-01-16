@@ -1,14 +1,14 @@
 const context = game.getContext("2d");
 const bird = new Image();
 bird.src = "bird.png";
-const interval = 16.667; // 60fps
+const interval = 24; // 42fps
 const canvasSize = 400;
 const birdSize = 24;
 let birdX = 0;
 let birdY = canvasSize / 2;
 let birdDy = 0;
 game.onclick = () => {
-  birdDy = 9;
+  birdDy = 8;
 };
 const pipeWidth = 24;
 const pipeGap = 200;
